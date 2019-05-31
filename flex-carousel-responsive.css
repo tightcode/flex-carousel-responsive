@@ -1,0 +1,88 @@
+/* Flex Carousel Responsive 0.1.0 ( https://github.com/tightcode/flex-carousel-responsive ) */
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+.carousel-caption {
+  bottom: 0;
+}
+.carousel-item, .carousel-item .img, .carousel-item .img img {
+  height: 12rem;
+}
+h1 {
+  font-size: 1rem;
+}
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .carousel-caption {
+    bottom: 1rem;
+  }
+  .carousel-item, .carousel-item .img, .carousel-item .img img {
+    height: 16rem;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .carousel-caption {
+    bottom: 2rem;
+  }
+  .carousel-item, .carousel-item .img, .carousel-item .img img {
+    height: 24rem;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 991.98px) {
+  .btn-lg {
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-caption {
+    bottom: 3rem;
+  }
+  .carousel-item, .carousel-item .img, .carousel-item .img img {
+    height: 32rem;
+  }
+  h1 {
+    font-size: 5.5rem;
+  }
+}
+
+
+
+/* Flex Carousel 0.1.2 ( https://github.com/tightcode/flex-carousel ) */
+@media (max-width: 1919.98px) {
+  .carousel-item .img {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .carousel-item .img img {
+    width: auto;
+    flex: none;
+  }
+}
+@media (min-width: 1920px) {
+  .carousel-item .img {
+    display: block;
+    justify-content: normal;
+  }
+  .carousel-item .img img {
+    height: auto;
+    width: 100%;
+    min-width: 100%;
+  }
+}
